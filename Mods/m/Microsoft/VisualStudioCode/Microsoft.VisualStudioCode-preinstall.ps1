@@ -4,7 +4,7 @@
 
 if (-not (Get-Module -Name PSAppDeployToolkit)) {
     try {
-        Import-Module -Name 'C:\temp\psappdeploytoolkit.4.1.8\PSAppDeployToolkit.psd1' -ErrorAction Stop
+        Import-Module -Name 'C:\Windows\KSKIT\psappdeploytoolkit\PSAppDeployToolkit.psd1' -ErrorAction Stop
     } catch {
         Write-Error "Failed to import PSAppDeployToolkit: $_"
         exit 1
